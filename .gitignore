@@ -1,0 +1,15 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+
+# Executables
+*.exe
+*.out
+
+# CodeBlocks Projects
+*.cbp
+*.depend
+*.layout

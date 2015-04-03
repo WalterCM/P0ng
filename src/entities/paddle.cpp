@@ -1,6 +1,6 @@
 
 #include "paddle.hpp"
-#include "game_constants.hpp"
+#include "../core/game_constants.hpp"
 
 Paddle::Paddle(int playerNumber)
 {

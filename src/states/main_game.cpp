@@ -2,7 +2,7 @@
 #include "main_game.hpp"
 #include "main_menu.hpp"
 
-#include "game_constants.hpp"
+#include "../core/game_constants.hpp"
 
 void MainGame::init(sf::RenderWindow *window)
 {

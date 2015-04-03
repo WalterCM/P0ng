@@ -5,8 +5,8 @@
 #include <iostream>
 
 #include "game_state.hpp"
-#include "paddle.hpp"
-#include "ball.hpp"
+#include "../entities/paddle.hpp"
+#include "../entities/ball.hpp"
 
 class MainGame : public GameState
 {

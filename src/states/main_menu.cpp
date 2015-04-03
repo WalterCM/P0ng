@@ -1,6 +1,6 @@
 
 #include "main_menu.hpp"
-#include "game_constants.hpp"
+#include "../core/game_constants.hpp"
 #include "main_game.hpp"
 
 void MainMenu::init(sf::RenderWindow *window)

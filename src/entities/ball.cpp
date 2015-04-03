@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include "ball.hpp"
-#include "game_constants.hpp"
+#include "../core/game_constants.hpp"
 
 Ball::Ball(Paddle *p0, Paddle *p1)
 {
@@ -16,6 +16,6 @@ Ball::Ball(Paddle *p0, Paddle *p1)
 void Ball::update()
 {
     Entity::update();
-    checkCollision(p0);
-    checkCollision(p1);
+    bounce(p0);
+    bounce(p1);
 }
